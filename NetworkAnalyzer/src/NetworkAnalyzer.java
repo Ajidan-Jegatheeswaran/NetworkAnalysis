@@ -22,7 +22,7 @@ public class NetworkAnalyzer {
 	ArrayList<Integer> seq;
 	
 	public NetworkAnalyzer(ArrayList<Integer> seq) {
-		Collections.sort(seq);
+		Collections.sort(seq, Collections.reverseOrder());
 		this.seq = seq;
 	}
 	
